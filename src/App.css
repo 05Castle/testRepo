@@ -1,0 +1,6 @@
+.game {
+  background-color: #4e5364;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
