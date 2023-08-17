@@ -63,7 +63,6 @@ const Board = () => {
 
   return (
     <div className="board">
-      <div className="status">{status}</div>
       <div className="board_row">
         {renderSquare(0)}
         {renderSquare(1)}
@@ -79,6 +78,7 @@ const Board = () => {
         {renderSquare(7)}
         {renderSquare(8)}
       </div>
+      <div className="status">{status}</div>
     </div>
   );
 };
